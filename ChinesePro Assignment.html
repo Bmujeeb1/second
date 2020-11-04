@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="FONT AWESOME/font-awesome/font-awesome.css">
+    <link rel="stylesheet" href="CSS/ChineseProAssignment.css">
+</head>
+<body>
+    <div class="a">
+        <div class="a1">
+            <a href=""> ChinesePro </a>
+        </div>
+        <div class="a4" onclick="gh();">
+            <span id="z" class="fa fa-navicon fa-2x"></span>
+        </div>
+        <div class="a2" id="Header">
+            <a href=""> Home</a>
+            <a href=""> About</a>
+            <a href=""> Service</a>
+            <a href=""> Portfolio</a>
+            <a href=""> Page</a>
+            <a href=""> Blog </a>
+            <a href=""> Contact</a>
+
+        </div>
+        
+        <div class="a3">
+            <button id="button"> Download Now</button>
+        </div>
+    </div>   
+    <div class="b">
+            <div class="b1">
+                We are awesome!
+            </div>
+            <div class="b2">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem aliquam voluptatem alias pariatur ipsa praesentium ullam temporibus? Necessitatibus incidunt excepturi numquam obcaecati, maxime ab molestias quaerat quam natus voluptas delectus!
+            </div>
+            <div class="butt"> 
+                    <button class="EM">
+                       Explore More   <span class="fa fa-long-arrow-right"></span>
+                   </button>
+                   <button class="PN">
+                       Purchase Now     <span class="fa fa-long-arrow-right"></span>
+                   </button>
+               </div>
+    </div> 
+    <div class="c">
+        <div class="c1">
+            OUR SERVICES
+        </div>
+        <div class="c2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente, obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </div>
+</body>
+<script>
+var bool= true;
+function gh(){
+  if(bool){
+document.getElementById("Header").style.display="block";
+document.querySelector("#z").className = "fa fa-close fa-2x";
+bool = false;
+}
+else{
+    document.getElementById("Header").style.display="";
+    document.querySelector("#z").className = "fa fa-navicon fa-2x";
+    bool = true;
+}
+
+
+}
+</script>
+</html>
